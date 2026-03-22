@@ -1,7 +1,8 @@
 [project]
 name = "axio-transport-nebius"
-version = "0.2.1"
+version = "0.2.2"
 description = "Nebius AI Studio transport for Axio"
+readme = "README.md"
 requires-python = ">=3.12"
 license = {text = "MIT"}
 dependencies = ["axio-transport-openai"]
