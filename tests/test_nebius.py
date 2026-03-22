@@ -14,6 +14,7 @@ from axio.events import IterationEnd, StreamEvent, TextDelta
 from axio.exceptions import StreamError
 from axio.models import Capability, ModelRegistry, ModelSpec
 from axio.types import StopReason, Usage
+
 from axio_transport_nebius import NebiusTransport
 
 # ---------------------------------------------------------------------------
