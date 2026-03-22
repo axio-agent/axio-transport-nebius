@@ -1,10 +1,11 @@
 [project]
 name = "axio-transport-nebius"
-version = "0.2.2"
+version = "0.2.3"
 description = "Nebius AI Studio transport for Axio"
 readme = "README.md"
 requires-python = ">=3.12"
 license = {text = "MIT"}
+keywords = ["llm", "agent", "ai", "nebius", "transport", "openai-compatible"]
 dependencies = ["axio-transport-openai"]
 
 [project.optional-dependencies]
@@ -16,6 +17,10 @@ nebius = "axio_transport_nebius:NebiusTransport"
 [project.entry-points."axio.transport.settings"]
 nebius = "axio_transport_nebius:NebiusSettingsScreen"
 
+
+[project.urls]
+Homepage = "https://github.com/axio-agent/axio-transport-nebius"
+Repository = "https://github.com/axio-agent/axio-transport-nebius"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
