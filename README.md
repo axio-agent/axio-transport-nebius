@@ -1,3 +1,6 @@
+> [\!NOTE]
+> This repository has been archived. Development continues in [axio-agent/monorepo](https://github.com/axio-agent/monorepo).
+
 # axio-transport-nebius
 
 [![PyPI](https://img.shields.io/pypi/v/axio-transport-nebius)](https://pypi.org/project/axio-transport-nebius/)
